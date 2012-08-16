@@ -5,7 +5,7 @@ use Zend\Form\Form;
 
 class AlbumForm extends Form
 {
-	public function __construct($name = null)	
+	public function __construct(/*$name = null*/)	
 	{
 		
 		parent::__construct('album');
